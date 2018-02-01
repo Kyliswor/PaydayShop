@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="shortcut icon" href="src/icon.jpg">
+        <title>Payday Shop - Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <style type="text/css">
+            @font-face {
+                font-family: 'paydayTitle';
+                src: url(src/Padaloma.ttf);
+            }
+            @font-face {
+                font-family: 'paydayText';
+                src: url(src/DINEngschrift.ttf);
+            }
+            footer {
+                margin-top: 1em;
+                padding-top: 10px;
+                border-top: lightgrey solid 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href=""><img src="src/icon.png" height="25" width="25" style="background-color: lightgrey; border-radius: 25%;"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <form class="form row" action="" method="POST" style="border: black 5px double; background-color: lightgrey;">
+                <div class="form-group col-xs-6">
+                    <label for="email">Nom:</label>
+                    <input type="text" class="form-control" name="nom" id="nom" placeholder="Duchmol" pattern="^[A-Z][A-Za-z\s\-]\w+" required>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="">Prénom:</label>
+                    <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Henri" pattern="^[A-Z][A-Za-z\s\-]\w+" required>
+                </div>
+                <div class="form-group col-xs-12">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" name="email" id="email" pattern="^[A-Za-z\-_]\w*?(@\w*?)[A-Za-z\-_]\w*?(\.\w*?)[a-z]{2,3}$" required>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="sujet">Sujet:</label>
+                    <input type="text" class="form-control" name="sujet" id="sujet" required>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="msg">Description:</label>
+                    <textarea class="form-control" name="msg" id="msg" rows="6"></textarea>
+                </div>
+                <div class="form-group col-xs-12" style="text-align: center;">
+                    <input type="submit" class="button btn btn-default" name="action" id="action" value="Envoyer">
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <footer class="footer">
+                <p class="text-muted textFooter">Copyright &copy; Payday Gang - 2017</p>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
