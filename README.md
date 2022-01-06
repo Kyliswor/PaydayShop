@@ -1,2 +1,2 @@
 # PaydayShop made with Bootstrap
-# Disclaimer : none of the pictures are mine, I took them from the internet.
+# Disclaimer : I do not own any of the rights on the pictures included in this project
